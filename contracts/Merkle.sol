@@ -5,7 +5,9 @@ import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
 contract MerkleTree {
 
-    bytes32 public merkleRoot;
+
+
+    bytes32 public merkleRoot = 0x8d3e624abd6b8dbaced83df1de567f8cd5d60859cc3ba9a8924ef65645c522fc;
 
     constructor(bytes32 _merkleRoot) {
         merkleRoot = _merkleRoot;

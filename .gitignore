@@ -11,6 +11,6 @@ artifacts
 
 hardhat.config.ts
 package-lock.json
-package.json
+# package.json
 tsconfig.json
 
